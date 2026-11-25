@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Entre Páginas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Biblioteca Entre Páginas</h1>
+        <p>Um lugar para encontrar sua próxima leitura.</p>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#livros">Livros</a>
+            <a href="#emprestimo">Empréstimo</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Bem-vindo à nossa biblioteca!</h2>
+            <p>Aqui você pode conhecer alguns livros e descobrir novas histórias.</p>
+            <p>Escolha seu livro favorito e aproveite a leitura!</p>
+
+            <h3>Top 10 livros mais lidos no Brasil em 2025</h3>
+             <img src="img/Livros.png" alt="Livros mais lidos no Brasil em 2025">
+        </section>
+
+        <section id="livros">
+            <h2>Top 3 livros mais lidos em nossa Biblioteca</h2>
+
+            <ul>
+                <li>
+                    <img src="img/PijamaListrado.png" alt="O Menino do Pijama Listrado">
+                    <h3>O Menino do Pijama Listrado</h3>
+                    <p>Gênero: Drama</p>
+                </li>
+
+                <li>
+                    <img src="img/Verity.png" alt="Verity">
+                    <h3>Verity</h3>
+                    <p>Gênero: Suspense</p>
+                </li>
+
+                <li>
+                    <img src="img/AssimqueAcaba.png" alt="É assim que Acaba">
+                    <h3>É assim que Acaba</h3>
+                    <p>Gênero: Romance</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="emprestimo">
+            <h2>Calcule a devolução do livro</h2>
+            <p>Preencha os dados para descobrir a data de devolução.</p>
+
+            <form id="formulario">
+                <label for="nome">Seu nome:</label>
+                <input type="text" id="nome">
+
+                <label for="dias">Dias de empréstimo:</label>
+                <input type="number" id="dias" min="1" max="30">
+
+                <button type="submit">Calcular</button>
+
+                <p id="resultado" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Biblioteca Entre Páginas - Projeto escolar</p>
+    </footer>
+
+</body>
+</html>
