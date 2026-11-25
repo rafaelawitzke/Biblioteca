@@ -10,7 +10,7 @@ O site apresenta uma biblioteca fictícia, alguns livros disponíveis e um formu
 ## Tecnologias utilizadas
 
 - HTML
-- CSS
+- CSS 
 - JavaScript
 
 ## Funcionamento
