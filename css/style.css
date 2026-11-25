@@ -18,7 +18,8 @@ nav a {
     text-decoration: none;
 }
 
-section {
+#inicio  {
+    text-align: center;
     padding: 25px;
     margin: 20px auto;
     max-width: 900px;
